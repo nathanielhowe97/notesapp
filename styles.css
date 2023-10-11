@@ -93,9 +93,6 @@ li{
     align-items: center;
     justify-content: left;
     
-
-    word-break: break-all;
-    
     margin:0;
     background-color: #0f0f0f;
     border-radius: .25rem;
@@ -143,7 +140,7 @@ ul button{
     right:0;
     margin-inline:2rem;
 
-    background-color: #d44f4fb9;
+    background-color: #c14242;
     padding:1rem;
     outline:1px solid #1e1d25;
     border-radius:.25rem;
