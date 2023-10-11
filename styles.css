@@ -11,6 +11,8 @@ html, body{
 
     position: relative;
 
+    font-family: 'Barlow', Helvetica, Arial, sans-serif;
+
     height:97dvh;
 }
 
@@ -27,6 +29,9 @@ p{
 button{
     cursor:pointer;
     user-select: none;
+
+    color: #f1f1f1;
+    font-size:1.1rem;
 }
 
 header{
