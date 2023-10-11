@@ -97,8 +97,7 @@ li{
     display:flex;
     align-items: center;
     justify-content: left;
-    
-    margin:0;
+
     background-color: #0f0f0f;
     border-radius: .25rem;
     padding:1rem 3rem 1rem 1rem;
@@ -114,15 +113,13 @@ ul button{
     background-color: #1e1d25;
     border-radius: 50%;;
     right:0.5rem;
+    top:0.75rem;
 
     color: #5d61cd;
 
     background: 0;
     border:0;
     border-radius: 1rem;
-
-    margin-block:1rem;
-    padding:.25rem;
 }
 
 @media only screen and (min-width:1000px) {
@@ -164,4 +161,19 @@ ul button{
         gap:1rem;
     }
     
+    & button{
+        background:0;
+        border:0;
+        margin-block:0;
+    }
+}
+
+@keyframes fade{
+    from{
+        opacity:100%;
+    }
+
+    to{
+        opacity:0%;
+    }
 }

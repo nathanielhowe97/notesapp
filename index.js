@@ -2,6 +2,8 @@ const noteInputTA = document.querySelector('#create-note')
 const submitNoteBtn = document.querySelector('#submit-note-btn')
 const pastNotesList = document.querySelector('#past-note-list')
 
+const closeToast = document.querySelector('#close-toast')
+
 const toast = document.querySelector('#toast')
 
 const remove = document.querySelector('.remove')
@@ -39,11 +41,11 @@ pastNotesList.addEventListener('click', function(e){
 
 function showToast(){
     toast.style.display = "block"
-
-    setTimeout(() => {
-        toast.style.display = "none"
-    }, 5000);
 }
+
+closeToast.addEventListener('click', function(){
+    toast.style.display = "none"
+})
 
 function SaveLS(){
     localStorage.setItem('pastNotes', pastNotesList.innerHTML)
